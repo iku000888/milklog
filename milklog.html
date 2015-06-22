@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Main</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.getJSON("https://docs.google.com/spreadsheets/d/1ZeirAa8oFzxKmrHbZyTMktxev7OECV4BNmx9rzWEoiM/gviz/tq?tq=select%20C%2C%20sum(B)%20group%20by%20C", function(result){
+               alert(result);            
+           });
+        });
+    });
+});
+</script>
+
+</head>
+
+<body id="background">
+<input type="date" id="today"> </input>
+<button >Get JSON data</button>
+
+<div></div>
+</body>
+</html>
