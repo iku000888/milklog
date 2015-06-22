@@ -1,0 +1,1 @@
+google.visualization.Query.setResponse({"version":"0.6","reqId":"0","status":"ok","sig":"143548784","table":{"cols":[{"id":"C","label":"Date","type":"date","pattern":"M/d/yyyy"},{"id":"sum-B","label":"sum How much milk did the baby drink?","type":"number"}],"rows":[{"c":[{"v":new Date(2015,5,21)},{"v":290.0}]}]}});
